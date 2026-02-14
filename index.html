@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo Dragon Ball</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <h1>Catálogo de Personajes Dragon Ball</h1>
+
+    <select id="filtroRaza">
+        <option value="todos">Todas las razas</option>
+    </select>
+
+    <div id="catalogo"></div>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="cerrar">&times;</span>
+            <h2 id="nombreModal"></h2>
+            <p><strong>Género:</strong> <span id="genderModal"></span></p>
+            <p id="descModal"></p>
+        </div>
+    </div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
